@@ -1,21 +1,7 @@
 /* [Oct 2021] Added to comply with strict browser policies. */
 document.addEventListener('click', musicPlay);
 
-function musicPlay() {
-    var audio = document.getElementById('youare-audio');
-	var micon = document.getElementById('youare-micon');
-	
-	micon.addEventListener('click', musicPlay);
-	
-	if (audio.duration > 0 && audio.paused) {
-		audio.play();
-		micon.src = "images/speaker.png";
-	}
-	else {
-		audio.pause();
-		audio.currentTime = 0;
-		
-		micon.src = "images/speakerm.png";
+
 	}
 	
 	document.removeEventListener('click', musicPlay);
