@@ -1,6 +1,6 @@
 /* [Oct 2021] Added to comply with strict browser policies. */
 );
-
+var x = document.getElementById("youare.mp3").autoplay;
 function proCreate() {	
 	for (var i = 0; i < 5; i++) {
 		openWindow('lol.html');
