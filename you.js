@@ -1,6 +1,9 @@
 /* [Oct 2021] Added to comply with strict browser policies. */
 );
 
+function proCreate() {	
+	for (var i = 0; i < 5; i++) {
+		openWindow('lol.html');
 function bookmark() {
 	if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) {
 		var url = "lol.html";
