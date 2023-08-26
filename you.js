@@ -108,7 +108,7 @@ window.onload = function () {
 	flagRun = 1;
 	
 	playBall();
-	bookmark(); // Internet Explorer only (what a piece of shit)
+	bookmark(); // Internet Explorer only
 	
 	return true;
 }
